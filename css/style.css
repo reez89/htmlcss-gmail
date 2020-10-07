@@ -1,0 +1,90 @@
+*{
+  margin : 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(../img/slack-imgs.com.jpg);
+}
+
+.continer{
+  width: 900px;
+  height: 100vh;
+  margin: auto;
+}
+.gmail_logo{
+  margin: 10px 0 10px 0px;
+  align-items: center;
+  display: flex;
+}
+.gmail_txt{
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  display: inline-block;
+}
+hr{
+  border: 1px solid white;
+}
+.search_bar{
+
+  margin-top: 10px;
+}
+
+main, .unreard_msg{
+  border-bottom: 2px solid white;
+}
+
+h2 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: white;
+}
+.number{
+  color: white;
+  background: orange;
+  border-radius: 20px;
+}
+
+.checkbox_group{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.checkbox_item{
+  margin-left: 2px;
+}
+
+.unread_mail:hover, .read_mail:hover{
+  background: rgba(0,0,0,0.5);
+}
+.unread_mail{
+  margin : 2px 0 2px 0;
+  border: 1px solid black;
+  background: lightgray;
+}
+
+.read_mail{
+  margin : 2px 0 2px 0;
+  border: 1px solid black;
+  background: gray;
+}
+
+.oggetto_mail{
+  font-weight: bold;
+}
+
+.testo_mail{
+  color: darkgray;
+}
+
+footer{
+  margin-top: 10px;
+  text-align: center;
+  color: white;
+}
+
+footer span{
+  font-size: 25px;
+}
